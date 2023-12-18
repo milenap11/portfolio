@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(191, 157, 238);
+}
+
+nav > div:first-child {
+    margin-right: auto;
+  }
+
+nav > div {
+    font-size: 20px;
+    margin: 15px;
+}
+
+body {
+    display: grid;
+    background-color: rgb(169, 224, 169);
+    margin: 0;
+    height: 100vh;
+    
+    
+}
+
+/*#intro {
+    background-color: blue;
+    height: 50px
+}*/
+
+#projects {
+    background-color: pink;
+}
+
+#about {
+    background-color: red;
+}
+
+#footer {
+    background-color: darkgreen;
+    
+}
