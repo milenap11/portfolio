@@ -49,14 +49,14 @@ nav a:hover {
 }
 
 section {
-    border: 1px solid red;
+    /*border: 1px solid black;*/
     height: 95vh;
     display: flex;
     justify-content: center;
 }
 
 #about {
-    height: 350vh;
+    height: 320vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,11 +96,12 @@ img {
 }
 
 #footer {
-height: 20vh;
+height: 15vh;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+background-color: #ddd3ee;
 }
 
 .rights, .email {
@@ -111,7 +112,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 160vh;
+    height: 150vh;
 
 }
 
@@ -119,79 +120,44 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
-}
-
-.p0 {
-    height: 450px;
-    width: 450px;
-    border-radius: 20px;
-    background-image: url("connect-4.png");
-    background-size: cover;
 
 }
+
+
 
 #UXUI{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
-    
 }
 
-.p1 {
-    border-radius: 20px;
-    height: 450px;
-    width: 450px;
-    margin-left: 25px;
-    background-image: url("chispi.png");
-    background-size: cover;
-   
-    
+.UXUI {
+    margin-top: 120px;
 }
+
 .btn {
     border-radius: 20px;
-    
-      
+        
 }
 
 .btn:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
+    box-shadow: 0px 0px 30px 20px rgba(36, 36, 36, 0.08);
 }
 
-.p2 {
-    border-radius: 20px;
-    height: 450px;
-    width: 450px;
-    background-image: url("venmo.png");
-    background-size: cover;
-    
-}
-
-.p3 {
-    border-radius: 20px;
-    height: 450px;
-    width: 450px;
-    background-image: url("finseed.png");
-    background-size: cover;
+.p1 {  
+    margin-left: 25px;     
 }
 
 .p4 {
-    border-radius: 20px;
-    height: 450px;
-    width: 450px;
-    background-image: url("propel.png");
-    background-size: cover;
     margin-right: 25px;
-
 }
 
 h2 {
     text-align: center;
     font-size: 50px;
-    
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-family: 'Londrina Shadow', cursive;
 
 }
@@ -202,10 +168,70 @@ h3 {
     font-size: 25px; 
 }
 
-
-.UXUI {
-    margin-top: 80px;
+/* banner section styles */
+#contact {
+    height: 70vh;
+    margin-bottom: 50px;
 }
+.banner {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+ 
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+/* Contact form styles */
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
 
 /*span {
     color: white;

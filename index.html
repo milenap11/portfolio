@@ -34,16 +34,16 @@
         <h2>Projects</h2>
         <h3>Software Engineering</h3>
     <div id="SWE">
-        <div class="p0"><img src="connect-4.png" class="btn"></div>
+        <div class="p0"><img src="connect-4.png" width="450" height="450" class="btn"></div>
     </div>
 
         <h3 class="UXUI">UX/UI</h3>
 
-    <div id="UXUI" class="parent">
-        <div class="p1"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y" target="_blank"><img src="chispi.png" class="btn"></a></div>
-        <div class="p2"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y-pmhj5" target="_blank"><img src="venmo.png" class="btn"></a></div>
-        <div class="p3"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y-fd8ng" target="_blank"><img src="finseed.png" class="btn"></a></div>
-        <div class="p4"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y-cjs64" target="_blank"><img src="propel.png" class="btn"></a></div>
+    <div id="UXUI">
+        <div class="p1"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y" target="_blank"><img src="chispi.png" width="450" height="450" class="btn"></a></div>
+        <div class="p2"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y-pmhj5" target="_blank"><img src="venmo.png" width="450" height="450" class="btn"></a></div>
+        <div class="p3"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y-fd8ng" target="_blank"><img src="finseed.png" width="450" height="450" class="btn"></a></div>
+        <div class="p4"><a href="https://www.milenapupillo.com/work/chispi-website-redesign-78t3r-5da4y-cjs64" target="_blank"><img src="propel.png" width="450" height="450" class="btn"></a></div>
     </div>
     </section>
 
@@ -51,7 +51,30 @@
         <h2 class="about">About</h2>
         <img src="milena-pupillo-ux-ui-timeline.png" width="900" >
     </section>
-    <section id="contact">Contact</section>
+    
+    <section id="contact" class="contact-form">
+        <div class="form-container">
+            <h2>Contact</h2>
+            <p class="banner">You can email me at <strong>milenapupillo@gmail.com</strong> or submit the following form.</p>
+            <form action="#" method="POST">
+ 
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+ 
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone">
+ 
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+ 
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
     <section id="footer">
         <p class="rights">Milena Pupillo © 2023 all rights reserved</p>
         <p class="email">milenapupillo@gmail.com</p>
