@@ -19,8 +19,7 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    background-color: #ddd3ee;
-    
+    background-color: #ddd3ee;  
 }
 
 nav a {
@@ -36,7 +35,6 @@ nav > div:first-child {
 
 nav > div:last-child {
     margin-right: 25px;
-  
   }
 
 nav > div {
@@ -61,8 +59,6 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
 }
 
 #contact {
@@ -76,14 +72,11 @@ height: 100vh;
 margin-top: 40px;
 align-items: center;
 justify-content: center;
-
-
 }
 
 h1 {
     font-size: 80px;
-    font-family: 'Londrina Shadow', cursive;
-    
+    font-family: 'Londrina Shadow', cursive;  
 }
 
 p {
@@ -113,17 +106,13 @@ background-color: #ddd3ee;
     flex-direction: column;
     justify-content: center;
     height: 150vh;
-
 }
 
 #SWE{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
-
-
 
 #UXUI{
     display: flex;
@@ -137,8 +126,7 @@ background-color: #ddd3ee;
 }
 
 .btn {
-    border-radius: 20px;
-        
+    border-radius: 20px;      
 }
 
 .btn:hover {
@@ -159,7 +147,6 @@ h2 {
     font-size: 50px;
     margin-bottom: 40px;
     font-family: 'Londrina Shadow', cursive;
-
 }
 
 h3 {
@@ -168,11 +155,12 @@ h3 {
     font-size: 25px; 
 }
 
-
+/* Contact form */
 #contact {
     height: 70vh;
     margin-bottom: 50px;
 }
+
 .banner {
     text-align: center;
     background-color: #ffffff;
@@ -185,6 +173,7 @@ h3 {
     max-width: 100%;
     height: auto;
 }
+
 /* Contact form styles */
 .contact-form {
     padding: 40px 0;
@@ -213,6 +202,7 @@ h3 {
     display:block;
     font-weight: bold;
 }
+
 .form-container input, textarea{
     width: 100%;
     padding: 10px;
@@ -221,6 +211,7 @@ h3 {
     margin-bottom: 1rem;
     resize: vertical;
 }
+
 .submit-button {
     padding: 10px 20px;
     background-color: black;
@@ -231,10 +222,11 @@ h3 {
     cursor: pointer;
 }
 
+/* Modal */
 #modal {
     display: none;
     background-color: rgba(0, 0, 0, 0.4);
-    position: fixed;
+    position: fixed; /* absolute? */
 	top: 0;
 	left: 0;
 	height: 100%;
@@ -256,17 +248,23 @@ h3 {
     line-height: 120%;
 
 }
-#modal-footer {
-    text-align: center;
-}
 
 .modal-buttons {
-    padding: 14px 18px;
-    background-color: #677996;
+    padding: 8px 16px;
+    background-color: lightgray;
     border: none;
     outline: none;
-    border-radius: 5px;
     color: white;
-    font-family: 'Arial';
+    font-size: 24px;
 	cursor: pointer;
+    border-radius: 100%;
+}
+
+/*#modal-footer {
+    text-align: center;
+}*/
+
+header {
+    text-align: right;
+    
 }

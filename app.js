@@ -1,10 +1,9 @@
-
+/* Contact form modal */
 const openBtn = document.getElementById('open-modal');
 
 const modal = document.getElementById('modal');
 
 const closeBtn = document.getElementById('close');
-
 
 
 const openModal = () => modal.style.display = 'block';
