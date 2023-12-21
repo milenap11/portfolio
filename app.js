@@ -14,6 +14,3 @@ openBtn.addEventListener('click', openModal)
 const closeModal = () => modal.style.display = 'none';
 
 closeBtn.addEventListener('click', closeModal)
-
-
-setTimeout(openModal, 5000);
