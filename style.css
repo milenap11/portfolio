@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: white;
+    background-color: #edeaf2;
     color: black;
     font-family: helvetica, sans-serif;
 }
@@ -32,6 +32,7 @@ nav > div:first-child {
     margin-right: auto;
     margin-left: 25px;
     font-size: 28px;
+    
   }
 
 nav > div:last-child {
@@ -39,8 +40,9 @@ nav > div:last-child {
   }
 
 nav > div {
-    font-size: 20px;
+    font-size: 16px;
     margin: 15px;
+    font-family: 'Inconsolata', monospace;
 }
 
 nav a:hover {
@@ -55,7 +57,7 @@ section {
 }
 
 #about {
-    height: 350vh;
+    height: 380vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,16 +79,43 @@ justify-content: center;
 
 h1 {
     font-size: 80px;
-    font-family: 'Londrina Shadow', cursive;  
+    font-family: 'Inconsolata', monospace;
 }
 
 p {
     font-size: 24px;
-    margin-top: 20px;
+    margin-bottom: 14px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.introp {
+    margin-top: 24px;
+}
+
+.milena {
+    margin: 0 450px 0 450px
+    
+}
+
+.journey {
+    margin-top: 24px;
 }
 
 img {
     margin-top: 20px;
+}
+
+.main {
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg);}
 }
 
 #footer {
@@ -99,7 +128,8 @@ background-color: #ddd3ee;
 }
 
 .rights, .email {
-    font-size: 18px;
+    font-size: 16px;
+    font-family: helvetica, sans-serif;
 }
 
 #projects {
@@ -131,7 +161,7 @@ background-color: #ddd3ee;
 }*/
 
 .UXUI {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 .btn {
@@ -155,13 +185,14 @@ h2 {
     text-align: center;
     font-size: 50px;
     margin-bottom: 40px;
-    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Inconsolata', monospace;
 }
 
 h3 {
     text-align: center;
     margin-bottom: 25px;
     font-size: 25px; 
+    font-family: 'Inconsolata', monospace;
 }
 
 /* Contact form */
@@ -175,13 +206,10 @@ h3 {
     background-color: #ffffff;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 19px;
 }
  
-.banner img {
-    max-width: 100%;
-    height: auto;
-}
+
 
 /* Contact form styles */
 .contact-form {
