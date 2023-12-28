@@ -1,9 +1,11 @@
 <div id="description" align="center">
 
 ![Profile](favicon.png)
-# My Portfolio & Mini-game
+# Project 1: Portfolio & Mini-Game
 
 </div>
+
+## :art: Screenshots
 
 <details open>
 <summary>Wireframe</summary>
