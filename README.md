@@ -1,9 +1,47 @@
 <div id="description" align="center">
 
-# My Portfolio & Mini-game
 ![Profile](favicon.png)
+# My Portfolio & Mini-game
 
 </div>
+
+<details open>
+<summary>Wireframe</summary>
+
+![Wireframe](portfolio-wireframe.png)
+</details>
+
+<details open>
+<summary>Home</summary>
+
+![Wireframe](portfolio-wireframe.png)
+</details>
+
+<details open>
+<summary>Projects</summary>
+
+![Wireframe](portfolio-wireframe.png)
+</details>
+
+<details open>
+<summary>Mini-game</summary>
+
+![Wireframe](portfolio-wireframe.png)
+</details>
+
+<details open>
+<summary>About</summary>
+
+![Wireframe](portfolio-wireframe.png)
+</details>
+
+<details open>
+<summary>Contact</summary>
+
+![Wireframe](portfolio-wireframe.png)
+</details>
+
+
 
 ## :robot: Technologies Used
 
