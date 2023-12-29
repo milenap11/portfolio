@@ -59,7 +59,7 @@
 
 ## :rocket: Walkthrough
 
-Welcome to my brand new portfolio! Here you can find my projects, including my previous work as UX/UI designer, my contact and a little bit of information about me. 
+Welcome to my brand new portfolio! Here you can find my projects, including my previous work as UX/UI designer, my contact, resume and a little bit of information about me. 
 
 ## :pencil: User Stories
 
@@ -70,7 +70,11 @@ Welcome to my brand new portfolio! Here you can find my projects, including my p
 
 ## :triangular_flag_on_post: Unsolved Problems & Hurdles
 
+- Incomplete responsive design
+- Player's turn and winner in mini-game do not display
+
+
 ## :dart: Next Steps
 
-- [ ] Make site mobile friendly
-- [ ] Add UI elements
+- [ ] Add/fix elements to make site more visually appealing and offer a better experience, including mobile adaptability 
+- [ ] Display player's turn and winner in mini-game
