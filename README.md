@@ -16,31 +16,32 @@
 <details open>
 <summary>Home</summary>
 
-![Wireframe](portfolio-wireframe.png)
+![Home](home.png)
 </details>
 
 <details open>
 <summary>Projects</summary>
 
-![Wireframe](portfolio-wireframe.png)
+![Projects](projects-1.png)
+![Projects](projects-2.png)
 </details>
 
 <details open>
 <summary>Mini-game</summary>
 
-![Wireframe](portfolio-wireframe.png)
+![Game](game.png)
 </details>
 
 <details open>
 <summary>About</summary>
 
-![Wireframe](portfolio-wireframe.png)
+![About](about-screenshot.png)
 </details>
 
 <details open>
 <summary>Contact</summary>
 
-![Wireframe](portfolio-wireframe.png)
+![Contact](contact.png)
 </details>
 
 
