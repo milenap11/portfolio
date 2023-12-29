@@ -135,7 +135,7 @@ background-color: #ddd3ee;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 170vh;  
+    height: 160vh;  
 }
 
 #SWE{
@@ -143,8 +143,6 @@ background-color: #ddd3ee;
     flex-direction: row;
     justify-content: center;  
 }
-
-
 
 #UXUI{
     display: flex;
