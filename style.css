@@ -167,10 +167,7 @@ background-color: #ddd3ee;
         flex-direction: column;
         align-items: center; 
     }
-    nav {
-        height: 10vh;
-        width: 80vw; 
-    }
+   
     h1 {
         text-align: center;
     }
@@ -201,10 +198,12 @@ background-color: #ddd3ee;
     .phone {
         display: block;
     }
-    .form-container {
-        max-width: 85%;
+    .banner {
+        display: none;
     }
+   
 }
+
 
 
 .UXUI {
