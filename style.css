@@ -165,8 +165,11 @@ background-color: #ddd3ee;
     #UXUI {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center; 
+    }
+    nav {
+        height: 10vh;
+        width: 80vw; 
     }
     h1 {
         text-align: center;
