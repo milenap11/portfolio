@@ -31,7 +31,15 @@ nav > div:first-child {
     margin-right: auto;
     margin-left: 25px;
     font-size: 28px;
+    display: block;
     
+  }
+
+.phone {
+    display: none;
+    margin-right: auto;
+    margin-left: 25px;
+    font-size: 28px;
   }
 
 nav > div:last-child {
@@ -150,12 +158,51 @@ background-color: #ddd3ee;
     justify-content: space-between;
 }
 
-/*@media screen (min-width: 1899px){
-    body {
+@media (max-width: 600px) {
+    html {
+        align-items: center; 
+    }
+    #UXUI {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        
     }
-}*/
+    h1 {
+        text-align: center;
+    }
+    .p1 {
+        margin: 0px;
+    }
+    .p4 {
+        margin: 0px;
+    }
+    img {
+        max-width: 480px;
+    }
+    #intro {
+        height: 120vh;
+    }
+    #projects {
+        height: 350vh;
+    }
+    #about {
+        height: 250vh;
+    }
+    .milena {
+        margin: 0px;
+    }
+    nav > div:first-child {
+        display: none;
+    }
+    .phone {
+        display: block;
+    }
+    .form-container {
+        max-width: 85%;
+    }
+}
+
 
 .UXUI {
     margin-top: 100px;
@@ -170,13 +217,13 @@ background-color: #ddd3ee;
     box-shadow: 0px 0px 30px 20px rgba(36, 36, 36, 0.08);
 }
 
-.p1 {  
+/*.p1 {  
     margin-left: 25px;     
 }
 
 .p4 {
     margin-right: 25px;
-}
+}*/
 
 h2 {
     text-align: center;
